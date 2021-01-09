@@ -33,7 +33,7 @@
       color: #ffffff;
       padding-top: 30px;
       min-height: 60px;
-      border-bottom: 3px solid red;
+      border-bottom: 3px solid #333;
     }
 
     #navbar a {
@@ -54,11 +54,20 @@
       padding: 0px 15px 0px 15px;
     }
 
+    #navbar a:hover{
+      color: red;
+    }
+
     #navbar #login-btn {
-      color: white;
-      background-color: red;
+      color: black;
+      background-color: #fff;
       padding: 5px 10px;
       border-radius: 5px;
+    }
+
+    #navbar #login-btn:hover {
+      background-color: #999;
+      color: #fff;
     }
 
     header #navbar {
@@ -160,12 +169,12 @@
         </div>
         <nav id="navbar">
           <ul>
-            <li><a href="Homepage.html">Homepage</a></li>
-            <li><a href="News.html">News</a></li>
-            <li><a href="Events.html">Charity</a></li>
-            <li><a href="Organization.html">Organization</a></li>
-            <li><a href="About Us.html">About Us</a></li>
-            <li><a href="Login.html" id="login-btn">Login / Register</a></li>
+            <li><a href="Homepage.html"><b>Homepage</b></a></li>
+            <li><a href="News.html"><b>News</b></a></li>
+            <li><a href="Events.html"><b>Charity</b></a></li>
+            <li><a href="Organization.html"><b>Organization</b></a></li>
+            <li><a href="About Us.html"><b>About Us</b></a></li>
+            <li><a href="Login.html" id="login-btn"><b>Login / Register</b></a></li>
           </ul>
         </nav>
       </div>
