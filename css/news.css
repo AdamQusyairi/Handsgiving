@@ -36,7 +36,7 @@ header{
   color: #ffffff;
   padding-top: 30px;
   min-height: 60px;
-  border-bottom: 3px solid red;
+  border-bottom: 3px solid #333;
 }
 #navbar a{
   color: #ffffff;
@@ -56,7 +56,7 @@ header{
 }
 
 #navbar li a:not(#login-btn):hover{
-  font-weight: bold;
+  color: red;
 }
 
 #navbar li #login-btn:hover{
@@ -71,8 +71,8 @@ header{
   border-radius: 5px;
 }
 
-#navbar li #current-page{
-  color: red;
+#navbar a.active {
+  color: #EC902E;
 }
 
 header #navbar{
