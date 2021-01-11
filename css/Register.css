@@ -4,7 +4,6 @@
 
 body {
   width: 100%;
-  max-height: 700px;
   overflow: hidden;
   font-family: arial, helvetica, sans-serif;
   background-image: url('./img/bc.jpg');
@@ -41,15 +40,6 @@ ul {
 li {
   display: inline;
   padding: 0px 15px 0px 15px;
-}
-
-.backreg {
-  margin-top: 5px;
-  width: 30%;
-  background-image: linear-gradient(to bottom, #ff794d 40%, #ffc6b3);
-  border-radius: 20px;
-  margin-bottom: 5px;
-  height: 451px;
 }
 
 #navbar #login-btn{
@@ -89,7 +79,9 @@ h1 {
 }
 
 .para {
-  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 .create {
@@ -107,6 +99,15 @@ h1 {
 
 .box {
   width: 90%;
+}
+
+.backreg {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 27%;
+  background-image: linear-gradient(to bottom, #ff794d 40%, #ffc6b3);
+  border-radius: 20px;
+  height: 451px;
 }
 
 #fname {
@@ -151,7 +152,7 @@ footer {
   background-color: #333;
   color: #fff;
   padding: 20px;
-  height: 100%;
+  max-height: 60px;
 }
 
 img {
